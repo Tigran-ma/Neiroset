@@ -1,0 +1,55 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+.but {
+	width: 70%;
+	font-size: 100px;
+	padding: 20px;
+	margin: 20px;
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	flex-direction: row;
+}
+header {
+	background-color: rgb(13, 173, 126);
+	font-size: 100px;
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.but button {
+	width: 10%;
+	height: 40px;
+	background-color: rgb(236, 236, 236);
+	font-family: shrift;
+	font-size: large;
+	font-weight: 700;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-top-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+.content {
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgb(236, 236, 236);
+	height: 300px;
+}
+.content img {
+	width: 20%;
+	height: 300px;
+}
+.but button:hover {
+	cursor: pointer;
+}
+@font-face {
+	font-family: shrift;
+	src: url(Jost-VariableFont_wght.ttf);
+}
