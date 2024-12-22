@@ -1,0 +1,56 @@
+.but {
+	font-size: 100px;
+	padding: 20px;
+	margin: 20px;
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	flex-direction: row;
+	a {
+		text-decoration: none;
+	}
+}
+.but a {
+	width: 10%;
+	height: 40px;
+	background-color: rgb(236, 236, 236);
+	font-family: shrift;
+	font-size: large;
+	font-weight: 700;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-top-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+@font-face {
+	font-family: shrift;
+	src: url(Jost-VariableFont_wght.ttf);
+}
+.bigtopic {
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+	color: #444444;
+	padding: 2px;
+	margin-bottom: 2px;
+	background-color: #f7f7f7;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+	width: 70%;
+	margin-left: 15%;
+	padding: 20px;
+}
+.bigtopic img {
+	max-width: 100%;
+	width: 100%;
+	object-fit: cover;
+	height: auto;
+	border-radius: 24px;
+}
+.bigtopic h6 {
+	font-size: 18px;
+	font-weight: bold;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
